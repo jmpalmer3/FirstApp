@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disc Golf Randomizer</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+   
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="row">
+                <img id='throw-button' alt="Throw" src="Hand.png">
+            </div>
+            <div class="space"></div>
+            <div class="row">
+                <img id='disc-button' class="not-active" alt="Disc" src="Disc.png">           
+            </div>
+        </div>
+    </div>
+
+    <div class="home-container">
+        <div class="settings">Settings</div>
+        <div class="throw-type"></div>
+
+        <div class="refresh">
+            <div class="refresh-circle">
+                <a href="#random"><img alt="Random" src="Refresh.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="settings-container hidden">
+        <div class='return-arrow'><img id='return-arrow' src='return_arrow.png'></div>
+
+        <div class="throw-settings"> 
+            <div class="throw-title">Throw</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Backhand</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Forehand</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Scoober</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Hammer</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Thumber</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Lefty Backhand</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Lefty Forehand</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>360</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Standstill</div>
+            <div class="throw-list"><img class="check-box" src='checked_box.png'>Jump Putt</div>
+        </div>
+        <div class="disc-settings hidden">
+            <div class="disc-title">Discs</div>
+            <div class="disc-list"><img class="check-box" src='checked_box.png'>Putter</div>
+            <div class="disc-list"><img class="check-box" src='checked_box.png'>Mid-Range</div>
+            <div class="disc-list"><img class="check-box" src='checked_box.png'>Fairway Driver</div>
+            <div class="disc-list"><img class="check-box" src='checked_box.png'>Distance Driver</div>
+        </div>
+    </div>
+
+</body>
+</html>
